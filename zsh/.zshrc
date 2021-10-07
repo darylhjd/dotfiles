@@ -80,10 +80,13 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH=$PATH:/usr/local/go/bin
 
 # Golang
+export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Codes/Languages/Go
+
+# Flutter
+export PATH=$PATH:$HOME/Codes/Languages/flutter/bin
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
