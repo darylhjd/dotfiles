@@ -7,3 +7,6 @@ sudo apt autoremove
 sudo apt autoclean
 sudo apt clean
 flatpak update
+
+#sudo chown root: /usr/local/bin/SCRIPTNAME
+# sudo chmod 755 /usr/local/bin/SCRIPTNAME
