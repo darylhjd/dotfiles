@@ -88,6 +88,7 @@ export XDG_CACHE_HOME=$HOME/.cache
 # Golang
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Codes/Languages/Go
+export PATH=$PATH:$GOPATH/bin
 
 #nvm
 export NVM_DIR=$XDG_DATA_HOME/nvm
