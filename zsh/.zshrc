@@ -98,6 +98,11 @@ export NVM_DIR=$XDG_DATA_HOME/nvm
 # OpenJDK
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
